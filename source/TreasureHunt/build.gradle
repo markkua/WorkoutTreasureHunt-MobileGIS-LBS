@@ -1,0 +1,58 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId 'ch.ethz.mobilegis.runningcompass'
+        minSdkVersion 29
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField("String","API_KEY","\"AAPK7dbbe0d65eb04213a26252ad9d630d957ShRjOnqUzQpl1uCZ08WAlW-Rpedw8r1aiXj1FqZjF3sUA2pkrSzEljKwALpWW9k\"")
+        }
+        debug {
+            buildConfigField("String","API_KEY","\"AAPK7dbbe0d65eb04213a26252ad9d630d957ShRjOnqUzQpl1uCZ08WAlW-Rpedw8r1aiXj1FqZjF3sUA2pkrSzEljKwALpWW9k\"")
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.opencsv:opencsv:5.4'
+    implementation 'org.jetbrains:annotations:15.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.esri.arcgisruntime:arcgis-android:100.10.0'
+
+
+    implementation 'com.google.ar:core:1.23.0'
+//    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.11.0'
+    implementation 'com.gorisse.thomas.sceneform:sceneform:1.18.9'
+    implementation 'androidx.fragment:fragment:1.3.2'
+
+    implementation "com.microsoft.azure.spatialanchors:spatialanchors_jni:[2.9.0]"
+    implementation "com.microsoft.azure.spatialanchors:spatialanchors_java:[2.9.0]"
+}

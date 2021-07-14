@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.1"
+            android:contentDescription="TODO" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.1" />
+
+        <TextView
+            android:id="@+id/spinnerText"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:text="@string/spinnerTextViewText"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerCheckpoint"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:dropDownSelector="@color/theme_color_1"
+            android:gravity="center|center_vertical"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/coordText"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.05"
+            android:gravity="center|top" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center|center_vertical"
+            android:layout_weight="0.1"
+            android:gravity="center|center_vertical"
+            android:text="@string/buttonStart" />
+
+        <Button
+            android:id="@+id/buttonMap"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center|center_vertical"
+            android:layout_weight="0.05"
+            android:gravity="center|center_vertical"
+            android:text="@string/buttonMap" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonAR"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_vertical"
+                android:gravity="center|center_vertical"
+                android:text="@string/buttonAR" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButtonInfo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="clip_vertical|center_vertical"
+                    app:srcCompat="@android:drawable/ic_dialog_info" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

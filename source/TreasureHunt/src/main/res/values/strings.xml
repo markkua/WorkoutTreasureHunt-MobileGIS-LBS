@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Treasure Hunt</string>
+    <string name="buttonStart">Start</string>
+    <string name="buttonStop">Stop</string>
+    <string name="proximity_text">Click notification to return to app</string>
+    <string name="proximity_intent">ch.ethz.mobilegis.bingxinke.PROXIMITY</string>
+    <string name="notif_channel_id">MY_CHANNEL_ID</string>
+    <string name="notif_channel_description">channel_description"</string>
+    <string name="spinnerTextViewText">"Select a treasure location: "</string>
+    <string name="degree">°</string>
+    <string name="celsius">°C</string>
+    <string name="paceUnit">sec/km</string>
+    <string name="destination_label">Destination:</string>
+    <string name="null_text">null</string>
+    <string name="temperature_label">Temperature:</string>
+    <string name="speed_unit">m/s</string>
+    <string name="location_fine_permission_dialog_title">Require location permission</string>
+    <string name="location_fine_permission_dialog_msg">Please select \"Allow while in use\" to enable location function.</string>
+    <string name="location_bg_permission_dialog_title">Require background location permission</string>
+    <string name="location_bg_permission_dialog_msg">Please select \"Allow all the time\" to enable background location.</string>
+    <string name="coordText_format">Longitude %.5f, Latitude %.5f</string>
+    <string name="active_start_success_toast">Hunting Started</string>
+    <string name="active_start_fail_toast">Fail to start hunting</string>
+    <string name="stop_activity_dialog_msg">Sure to stop hunting activity?</string>
+    <string name="destination_arrival_remind_msg">You\'ve arrived destination and found the treasure.\nNow take treasure back to your start point.</string>
+    <string name="destination_arrival_toast">Arrived Destination</string>
+    <string name="finish_toast">You\'ve finished the round trip!</string>
+    <string name="finish_dialog_msg">Congratulations!\nYou\'ve finished the trip!\nTotal Length: %.1fm\nAverage Speed: %.1fkm/h\nAverage Temperature: %.1f%s\nYour reward is 1 %s!</string>
+    <string name="gps_disable_dialog_msg">GPS sensor is disabled, please turn on to continue.</string>
+    <string name="storage_permision_dialog_msg">Please select \"Allow\" to enable result saving.</string>
+    <string name="storage_permission_dialog_title">Require storage permission.</string>
+    <string name="arrival_notification_message">Now go back to start point</string>
+    <string name="finish_notification_message">Return to app and chek your reward.</string>
+    <string name="social_share_text">User %d spent %.1f s to travel %.1f m, and get 1 reward: %s .</string>
+    <string name="share_dialog_title">Share Result</string>
+    <string name="share_dialog_message">Want to share your fitness result?</string>
+
+    <!--  Azure Account Settings  -->
+    <string name="accountID">YOUR_ACCOUND_ID</string>
+    <string name="accountKey">YOUR_ACCOUND_KEY</string>
+    <string name="accountDomain">YOUR_ACCOUNT_DOMAIN</string>
+
+    <string name="round_trip_layer_url">https://services1.arcgis.com/i9MtZ1vtgD3gTnyL/arcgis/rest/services/roundTripTrack/FeatureServer/0</string>
+    <string name="check_point_layer_url">https://services1.arcgis.com/i9MtZ1vtgD3gTnyL/arcgis/rest/services/roundTripCheckpoint/FeatureServer/0</string>
+    <string name="feature_added">Data uploaded</string>
+    <string name="error_cannot_add_to_feature_table">Cannot add a feature to this feature table</string>
+    <string name="error_applying_edits">Exception applying edits on server: %s</string>
+    <string name="buttonMap">Track review</string>
+    <string name="text_view_upload_title">Uploading result</string>
+    <string name="text_view_map_spinner">User ID:</string>
+    <string name="user_id_all_uers">All Users</string>
+    <string name="back_button_text">Back</string>
+    <string name="buttonAR">AR</string>
+
+    <string name="anchor_file_name">anchors.csv</string>
+    <string name="dialog_info_message">Put your rewards in the AR world. \n1. Select reward on top right.\n2. Tap on screen to place.\n3. Move around to scan.\n4. Save and upload.\n5. Load rewards when next login</string>
+    <string name="dialog_info_title">Manual for AR function</string>
+
+    >
+</resources>
