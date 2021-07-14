@@ -6,16 +6,16 @@ This is an Android app developed in lecture *Mobile_GIS_and_Location-Based_Servi
 
 [Download](https://github.com/markkua/WorkoutTreasureHunt-MobileGIS-LBS/raw/master/apk/TreasureHunt.apk) and install demo apk.
 
-![1626278596958513 (2)](README.img/ar-demo.gif)
+
+<img src="README.img/ar-demo.gif" alt="ar-demo.gif" width=500/>
 
 Treasure hunt compass: 
 
-<img src="README.img/navigate.png" alt="image-20210714182244510" style="zoom: 55%;" />
+<img src="README.img/navigate.png" alt="navigate" width=500/>
 
 Track review: 
 
-<img src="README.img/track_review.gif" alt="track_review" style="zoom: 80%;" />
-
+<img src="README.img/track_review.gif" alt="track_review" width=500 />
 
 
 ## Setup source code
