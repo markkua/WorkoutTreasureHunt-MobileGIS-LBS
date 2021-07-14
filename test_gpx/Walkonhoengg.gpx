@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpsies="http://www.gpsies.com/GPX/1/0" creator="GPSies http://www.gpsies.com - WalkOnHoengg" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.gpsies.com/GPX/1/0 http://www.gpsies.com/gpsies.xsd">
+  <metadata>
+    <name>WalkOnHoengg</name>
+    <desc>This is a track for our Mobile GIS students.</desc>
+    <author>
+      <name>dominikbucher</name>
+      <link href="http://www.gpsies.com/mapUser.do?username=dominikbucher">
+        <text>dominikbucher on GPSies.com</text>
+        <type>GPSiesUserOnWeb</type>
+      </link>
+    </author>
+    <link href="http://www.gpsies.com/map.do?fileId=joinpfpdotrnjetu">
+      <text>WalkOnHoengg on GPSies.com</text>
+      <type>trackOnWeb</type>
+    </link>
+    <time>2017-03-21T12:08:04Z</time>
+    <extensions>
+      <gpsies:property>one-way trip</gpsies:property>
+      <gpsies:trackLengthMeter>388.6608703769484</gpsies:trackLengthMeter>
+      <gpsies:totalAscentMeter>15.0</gpsies:totalAscentMeter>
+      <gpsies:totalDescentMeter>0.0</gpsies:totalDescentMeter>
+      <gpsies:minHeightMeter>524.0</gpsies:minHeightMeter>
+      <gpsies:maxHeightMeter>540.0</gpsies:maxHeightMeter>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>WalkOnHoengg on GPSies.com</name>
+    <link href="http://www.gpsies.com/map.do?fileId=joinpfpdotrnjetu">
+      <type>trackOnWeb</type>
+    </link>
+    <link href="http://www.gpsies.com/charts/jo/map/joinpfpdotrnjetu_map.png">
+      <type>elevationChartUrlMap</type>
+    </link>
+    <link href="http://www.gpsies.com/charts/jo/mapThumb/joinpfpdotrnjetu_mapThumb.png">
+      <type>elevationChartUrlMapThumb</type>
+    </link>
+    <link href="http://www.gpsies.com/charts/jo/tab/joinpfpdotrnjetu_tab.png">
+      <type>elevationChartUrlTab</type>
+    </link>
+    <trkseg>
+      <trkpt lat="47.40875500" lon="8.507800690">
+        <ele>525.00000</ele>
+        <time>2010-01-01T00:00:00Z</time>
+      </trkpt>
+      <trkpt lat="47.40874000" lon="8.507790000">
+        <ele>524.00000</ele>
+        <time>2010-01-01T00:00:00Z</time>
+      </trkpt>
+      <trkpt lat="47.40866000" lon="8.508020000">
+        <ele>524.00000</ele>
+        <time>2010-01-01T00:00:07Z</time>
+      </trkpt>
+      <trkpt lat="47.40820000" lon="8.507700000">
+        <ele>525.00000</ele>
+        <time>2010-01-01T00:00:28Z</time>
+      </trkpt>
+      <trkpt lat="47.40793000" lon="8.508530000">
+        <ele>527.00000</ele>
+        <time>2010-01-01T00:00:52Z</time>
+      </trkpt>
+      <trkpt lat="47.40776000" lon="8.508780000">
+        <ele>528.00000</ele>
+        <time>2010-01-01T00:01:02Z</time>
+      </trkpt>
+      <trkpt lat="47.40772000" lon="8.508760000">
+        <ele>528.00000</ele>
+        <time>2010-01-01T00:01:04Z</time>
+      </trkpt>
+      <trkpt lat="47.40772000" lon="8.508750000">
+        <ele>528.00000</ele>
+        <time>2010-01-01T00:01:04Z</time>
+      </trkpt>
+      <trkpt lat="47.40757000" lon="8.508640000">
+        <ele>529.00000</ele>
+        <time>2010-01-01T00:01:11Z</time>
+      </trkpt>
+      <trkpt lat="47.40725000" lon="8.508940000">
+        <ele>531.00000</ele>
+        <time>2010-01-01T00:01:26Z</time>
+      </trkpt>
+      <trkpt lat="47.40717000" lon="8.509130000">
+        <ele>531.00000</ele>
+        <time>2010-01-01T00:01:32Z</time>
+      </trkpt>
+      <trkpt lat="47.40707000" lon="8.509490000">
+        <ele>533.00000</ele>
+        <time>2010-01-01T00:01:43Z</time>
+      </trkpt>
+      <trkpt lat="47.40709000" lon="8.509880000">
+        <ele>536.00000</ele>
+        <time>2010-01-01T00:01:53Z</time>
+      </trkpt>
+      <trkpt lat="47.40712000" lon="8.510070000">
+        <ele>538.00000</ele>
+        <time>2010-01-01T00:01:58Z</time>
+      </trkpt>
+      <trkpt lat="47.40690000" lon="8.510740000">
+        <ele>540.00000</ele>
+        <time>2010-01-01T00:02:19Z</time>
+      </trkpt>
+      <trkpt lat="47.40688000" lon="8.510730000">
+        <ele>540.00000</ele>
+        <time>2010-01-01T00:02:19Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
+
