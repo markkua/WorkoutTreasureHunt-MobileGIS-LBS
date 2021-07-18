@@ -4,7 +4,7 @@ This is an Android app developed in lecture *Mobile_GIS_and_Location-Based_Servi
 
 ## Demo
 
-[Download](https://github.com/markkua/WorkoutTreasureHunt-MobileGIS-LBS/raw/master/apk/TreasureHunt.apk) and install demo apk.
+[Download](https://github.com/markkua/WorkoutTreasureHunt-MobileGIS-LBS/releases/tag/1.0) and install demo apk.
 
 
 <img src="README.img/ar-demo.gif" alt="ar-demo.gif" width=500/>
